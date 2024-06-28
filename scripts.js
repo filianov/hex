@@ -1,4 +1,4 @@
-const url = 'HEX.pdf'; // Убедитесь, что файл HEX.pdf находится в той же директории
+const url = 'HEX_compressed.pdf';
 
 let pdfDoc = null,
     pageNum = 1,
