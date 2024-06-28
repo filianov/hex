@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEX Presentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pdf-container">
+      <div id="pdf-viewer">
+        <canvas id="pdf-canvas"></canvas>
+      </div>
+      <div class="controls">
+        <button id="prev-page">Previous</button>
+        <span
+          >Page <span id="page-num"></span> of <span id="page-count"></span
+        ></span>
+        <button id="next-page">Next</button>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
